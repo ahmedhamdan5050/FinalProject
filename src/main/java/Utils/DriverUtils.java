@@ -102,6 +102,10 @@ public class DriverUtils {
 public void waitUntilElementIsVisible(By selector){
     wait.until(ExpectedConditions.visibilityOfElementLocated(selector));
 }
+    public void javaScriptExecutorClick(WebElement element) {
+        ((JavascriptExecutor) getWebDriver()).executeScript("return arguments[0].click();", element);
+    }
+
 
 }
 
