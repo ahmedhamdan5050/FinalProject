@@ -1,4 +1,5 @@
 import Utils.DriverUtils;
+import Utils.LogInOOP;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,9 +14,9 @@ import java.util.List;
 import static Utils.DriverUtils.getWebDriver;
 import static Utils.DriverUtils.waitAndClick;
 
-public class login {
+public class Login {
     WebDriver driver;
-    logInOOP oop = new logInOOP();
+    LogInOOP oop = new LogInOOP();
 
     @BeforeClass
     void setup() throws InterruptedException {

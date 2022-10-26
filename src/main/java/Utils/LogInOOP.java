@@ -1,6 +1,8 @@
+package Utils;
+
 import org.openqa.selenium.By;
 
-public class logInOOP {
+public class LogInOOP {
     public By SignIn=By.cssSelector("div.header_user_info > a");
     public By email=By.cssSelector("#email");
     public By password=By.cssSelector("#passwd");

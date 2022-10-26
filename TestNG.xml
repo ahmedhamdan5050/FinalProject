@@ -14,7 +14,7 @@
             <!--            <class name="SelectableGridPageTest"/>-->
             <!--            <class name="FileDownloadTest_1"/>-->
             <!--            <class name="FileUploadTest"/>-->
-            <class name="login"/>
+            <class name="Login"/>
             <!--            <class name="RadioButtonTest"/>-->
             <!--            <class name="ReadExcelForTestClass"/>-->
             <!--            <class name="TextBoxTest"/>-->
